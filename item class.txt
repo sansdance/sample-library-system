@@ -1,0 +1,58 @@
+public class Item{
+
+private String id;
+private String date;
+private String amount;
+private String description;
+private String title;
+
+public()Item{
+
+title="";
+description="";
+amount="";
+date="";
+id="";
+}
+
+public void setId(String temp){
+id=temp;
+}
+
+public void setDate(String temp){
+date=temp;
+}
+
+public void setAmount(String temp){
+amount=temp;
+}
+
+public void setDescription(String temp){
+description=temp;
+}
+
+public void setTitle(String temp){
+title=temp;
+}
+
+public String getId(){
+return id;
+}
+
+public String getDate(){
+return date;
+}
+
+public String getAmount(){
+return amount;
+}
+
+public String getDescription(){
+return description;
+}
+
+public String getTitle(){
+return title;
+}
+
+}

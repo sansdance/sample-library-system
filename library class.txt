@@ -1,0 +1,15 @@
+package
+
+
+//master class
+public class Library{
+private int id;
+private Item article;
+private int date;
+private int amount;
+private String description;
+private String title;
+
+public void 
+
+public void show

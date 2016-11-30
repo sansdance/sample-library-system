@@ -1,0 +1,22 @@
+public class Multimedia extends Library{
+
+private String subject;
+private String type;
+
+public void setSubject(String temp){
+subject=temp;
+}
+
+public void setType(String temp){
+type=temp;
+}
+
+public String getSubject(){
+return subject;
+}
+
+public String getType(){
+return type;
+}
+
+}
