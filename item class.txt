@@ -1,30 +1,30 @@
-public class Item{
+public class Article{
 
-private String id;
-private String date;
-private String amount;
+private String id_number;
+private String date_accquired;
+private String amount_of_copies;
 private String description;
 private String title;
 
-public()Item{
+public()Article{
 
 title="";
 description="";
-amount="";
-date="";
-id="";
+amount_of_copies="";
+date_accquired="";
+id_number="";
 }
 
-public void setId(String temp){
-id=temp;
+public void setIdNumber(String temp){
+id_number=temp;
 }
 
-public void setDate(String temp){
-date=temp;
+public void setDateAccquired(String temp){
+date_accquired=temp;
 }
 
-public void setAmount(String temp){
-amount=temp;
+public void setAmountOfCopies(String temp){
+amount_of_copies=temp;
 }
 
 public void setDescription(String temp){
@@ -35,16 +35,16 @@ public void setTitle(String temp){
 title=temp;
 }
 
-public String getId(){
-return id;
+public String getIdNumber(){
+return id_number;
 }
 
-public String getDate(){
-return date;
+public String getDateAccquired(){
+return date_accquired;
 }
 
-public String getAmount(){
-return amount;
+public String getAmountOfCopies(){
+return amount_of_copies;
 }
 
 public String getDescription(){
