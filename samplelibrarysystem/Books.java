@@ -13,7 +13,7 @@ public class Books extends Library{
     //data members
 private String author;
 private String publisher;
-private int isbn;
+private String isbn;
 
 //methods of the class books
 
@@ -25,7 +25,7 @@ public void setPublisherName(String temp){
 publisher=temp;
 }
 
-public void setIsbnNumber(int temp){
+public void setIsbnNumber(String temp){
 isbn=temp;
 }
 
@@ -37,7 +37,7 @@ public String getPublisherName(){
 return publisher;
 }
 
-public int getIsbnNumber(){
+public String getIsbnNumber(){
 return isbn;
 }
 
