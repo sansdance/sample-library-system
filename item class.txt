@@ -2,7 +2,7 @@ public class Article{
 
 private String id_number;
 private String date_accquired;
-private String amount_of_copies;
+private int amount_of_copies;
 private String description;
 private String title;
 
@@ -23,7 +23,7 @@ public void setDateAccquired(String temp){
 date_accquired=temp;
 }
 
-public void setAmountOfCopies(String temp){
+public void setAmountOfCopies(int temp){
 amount_of_copies=temp;
 }
 
@@ -43,7 +43,7 @@ public String getDateAccquired(){
 return date_accquired;
 }
 
-public String getAmountOfCopies(){
+public int getAmountOfCopies(){
 return amount_of_copies;
 }
 
